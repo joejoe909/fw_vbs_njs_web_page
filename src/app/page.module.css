@@ -11,7 +11,7 @@
   align-items: center;
   justify-items: center;
   min-height: 100svh;
-  padding: 80px;
+  padding: 0px;
   gap: 64px;
   font-family: var(--font-geist-sans);
 }
@@ -108,6 +108,21 @@ a.secondary {
   flex-shrink: 0;
 }
 
+.header
+{
+  background-color: red;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+
+}
+
+.my_div
+{
+  color: green;
+  background-color: blue;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
@@ -165,4 +180,24 @@ a.secondary {
   .logo {
     filter: invert();
   }
+}
+
+.bus_card
+{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    background-color:#ccc;
+}
+
+.inner_card
+{
+  padding: 1%;
+}
+
+.img_flex
+{
+  flex: content;
+  max-width: max-content;
+  max-height: max-content;
 }
